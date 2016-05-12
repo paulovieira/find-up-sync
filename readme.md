@@ -1,7 +1,7 @@
 # find-up-sync
 
 ### Description 
-Find a file by walking up parent directories (barebones implementation). 
+Find a file by walking up parent directories (barebones implementation, no dependencies). 
 
 Useful to automatically find the path to configuration files that should exist in a predefined directory. See example below.
 

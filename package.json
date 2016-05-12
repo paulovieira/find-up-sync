@@ -1,8 +1,8 @@
 {
   "name": "find-up-sync",
-  "version": "1.0.0",
-  "description": "Find a file by walking up parent directories (barebones implementation)",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "Find a file by walking up parent directories (barebones implementation, no dependencies)",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,6 +27,9 @@
     "find-up",
     "find"
   ],
+  "engines": {
+    "node": ">=0.10.0"
+  },  
   "author": "Paulo Vieira",
   "license": "MIT",
   "bugs": {
