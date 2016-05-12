@@ -1,4 +1,4 @@
-## find-up-sync
+# find-up-sync
 
 ### Description 
 Find a file by walking up parent directories (barebones implementation). 
@@ -28,7 +28,7 @@ Assume your filesystem has a structure like this:
 
 We want to obtain the path to `config/email-key.txt` from any module in the application, without using relative paths or any other dependency specific to the application (such as a global `__rootDir` variable).
 
-The `find-key.js` will find the path:
+The `find-key.js` module will find the path:
 ```js
 var FindUp = require('find-up-sync');
 var path = FindUp('config/email-key.txt');
