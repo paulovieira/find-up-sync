@@ -1,0 +1,36 @@
+{
+  "name": "find-up-sync",
+  "version": "1.0.0",
+  "description": "Find a file by walking up parent directories (barebones implementation)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulovieira/find-up-sync.git"
+  },
+  "keywords": [
+    "path",
+    "walking",
+    "walk",
+    "dir",
+    "directory",
+    "folder",
+    "parents",
+    "parent",
+    "resolve",
+    "package",
+    "look",
+    "look-up",
+    "findup",
+    "find-up",
+    "find"
+  ],
+  "author": "Paulo Vieira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulovieira/find-up-sync/issues"
+  },
+  "homepage": "https://github.com/paulovieira/find-up-sync#readme"
+}
